@@ -1,0 +1,7 @@
+{
+    "include": [
+        "./src/*"
+, "src/assets/fontawesome.js"    ]
+}
+
+// 應對 Vetur can't find tsconfig.json, jsconfig.json

@@ -1,0 +1,124 @@
+
+.jump{
+    animation:jumpan 1s 1;
+  }
+  .shake{
+    animation:shakean 1s 1;
+  }
+  .low{
+    animation:lowan 3s 1 forwards;
+  }
+  .run{
+    animation:runan 2s 1 forwards;
+  }
+  @keyframes lowan{
+    from{
+      top:0;
+    }
+    to{
+      top:300px;
+    }
+  }
+  
+  @keyframes jumpan{
+    0%{
+      top:0;
+    }
+    25%{
+      top:-10px;
+    }
+    50%{
+      top:0;
+    }
+    75%{
+      top:-10px;
+    }
+    100%{
+      top:0;
+    }
+  }
+  @keyframes shakean{
+    0%{
+      left:0;
+    }
+    10%{
+      left:10px;
+    }
+    20%{
+      left:-10px;
+    }
+    30%{
+      left:10px;
+    }
+    40%{
+      left:-10px;
+    }
+    50%{
+      left:10px;
+    }
+    60%{
+      left:-10px;
+    }
+    70%{
+      left:10px;
+    }
+    80%{
+      left:-10px;
+    }
+    90%{
+      left:10px;
+    }
+    100%{
+      left:0px;
+    }
+  }
+  @keyframes runan{
+    0%{
+      left:0;
+      top:0;
+    }
+    10%{
+      left:-40px;
+      top:-10px;
+    }
+    20%{
+      left:-80px;
+      top:0;
+    }
+    30%{
+      left:-120px;
+      top:-10px;
+    }
+    40%{
+      left:-160px;
+      top:0;
+    }
+    50%{
+      left:-200px;
+      top:-10px;
+    }
+    60%{
+      left:-240px;
+      top:0;
+    }
+    70%{
+      left:-280px;
+      top:-10px;
+    }
+    80%{
+      left:-320px;
+      top:0;
+    }
+    90%{
+      left:-360px;
+      top:-10px;
+    }
+    100%{
+      left:-800px;
+      top:0;
+    }
+  }
+  
+  .big{
+    font-size: 2em!important;
+  }

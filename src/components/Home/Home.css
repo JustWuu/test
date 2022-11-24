@@ -1,0 +1,11 @@
+.open{
+    animation:upan .3s 1 forwards;
+  }
+@keyframes upan{
+  from{
+    top:400px;
+  }
+  to{
+    top:0px;
+  }
+}
